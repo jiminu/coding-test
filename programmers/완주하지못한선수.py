@@ -20,11 +20,13 @@ def solution(participant, completion):
     
     for p in part :
         if p in comp :
-            part[p] = part[p] - comp[p]
+            # part[p] = part[p] - comp[p]
+            if part[p] != comp[p] :
+                return p
         else :
             return p
             
-    part_reverse = dict(map(reversed, part.items()))
+#     part_reverse = dict(map(reversed, part.items()))
     
-    answer = part_reverse[1]
+#     answer = part_reverse[1]
     return answer
