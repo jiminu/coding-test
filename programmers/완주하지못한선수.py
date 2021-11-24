@@ -26,7 +26,7 @@ def solution(participant, completion):
         else :
             return p
             
-#     part_reverse = dict(map(reversed, part.items()))
+    # part_reverse = dict(map(reversed, part.items()))
     
-#     answer = part_reverse[1]
-    return answer
+    # answer = part_reverse[1]
+    # return answer
